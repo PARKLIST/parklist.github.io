@@ -26,13 +26,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-        node-version: '20'
-
-      - name: Checkout Repository
+      - name: Checkout
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
@@ -40,7 +34,7 @@ jobs:
           # If using the 'assets' git submodule from Chirpy Starter, uncomment above
           # (See: https://github.com/cotes2020/chirpy-starter/tree/main/assets)
 
-      - name: Configure Pages
+      - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
 
@@ -63,7 +57,6 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: "_site${{ steps.pages.outputs.base_path }}"
-
 
   deploy:
     environment:
