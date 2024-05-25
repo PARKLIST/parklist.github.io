@@ -19,12 +19,12 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 꼭 확인! # the main title
+title: 놓치마세요요요 # the main title
 
-tagline: 쇼핑정보, 핫아이템, SNS유명한, 최저가 # it will display as the sub-title
+tagline: 최고의상품, 핫아이템, SNS유명한, 최저가 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  쇼핑, 핫아이템, SNS유명한, 할인정보
+  쇼핑, 핫아이템, SNS유명한, 할인정보, 최고상품
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url:  "https://parklist.github.io"
@@ -33,7 +33,7 @@ github:
   username: todayreview # change to your github username
 
 twitter:
-  username:  # change to your twitter username
+  username: . # change to your twitter username
 
 social:
   # Change to your full name.
@@ -77,7 +77,7 @@ theme_mode: # [light|dark]
 # img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "https://www.iconarchive.com/download/i141858/iconarchive/cute-animal/Cute-Sheep.1024.png"
+avatar: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/1280px-Flag_of_Europe.svg.png"
 
 # boolean type, the global switch for TOC in posts.
 toc: true
